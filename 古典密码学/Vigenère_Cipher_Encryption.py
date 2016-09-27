@@ -8,7 +8,7 @@ Created on Mon Sep 26 19:48:58 2016
 恺撒密码的基础上扩展的多表密码
 """
 
-secret_key = ( input("密钥： ")).upper()
+secret_key = ( input("密钥： ")).replace(' ','').upper()
 
 Alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 alphabets = 'abcdefghijklmnopqrstuvwxyz'
