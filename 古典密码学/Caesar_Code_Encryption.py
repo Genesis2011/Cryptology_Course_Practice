@@ -24,4 +24,4 @@ for key in range(len(plain_text)):
     else:
         cipher_text += plain_text[key]
 
-print(cipher_text)
+print("密文：  "+cipher_text)
